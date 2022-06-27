@@ -1,0 +1,22 @@
+body {
+    background: #35a9db;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.kotak{
+    background: rgba(0, 0, 255, 0);
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation-name: animasi_kotak;
+    animation-duration: 2s;
+}
+
+@keyframes animasi_kotak{
+    0% {background-color: red;left: 0px;top: 0px;}
+    25% {background-color:yellow;left: 200px;top: 0px;}
+    50% {background-color: blue;left: 0px;top: 200px;}
+    75% {background-color:green;left: 200px;top: 0px;}
+    100% {background-color: red;left: 0px;top: 0px;}
+}

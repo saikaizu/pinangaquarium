@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Masuk akun</title>
+        <link rel="stylesheet" type="text/css" href="animasikotak.css">
+        <link rel="stylesheet" href="animate.css">
+    </head>
+
+<header class="animated animate__bounceIn" style="text-align: center;">
+        <img src="image/foto-profile.jpg" width="200" height="200" style="border-radius: 50%;"/>
+        <h1 class="animated animate__bounceIn">Selamat Datang...</h1>
+        </div>
+</header>
+
+
+<hr />
+
+<style>
+    body {
+        background: -webkit-linear-gradient(bottom,  rgb(255, 255, 255), royalblue);
+        background-repeat: no-repeat;
+    }
+
+    #card {
+        
+        background: #fbfbfb;
+        border-radius: 8px;
+        box-shadow: rgb(0, 0, 0) 1px 2px 8px;
+        height: 410px;
+        margin: 6rem auto 8.1rem auto;
+        width: 329px;
+    }
+    #card-content {
+        padding: 12px 44px;
+    }
+
+    #card-tiitle {
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 4px ;
+        padding-bottom: 23px ;
+        padding-top: 13px;
+        text-align: center ;
+    }
+
+.underline-tittle {
+    background: -webkit-linear-gradient(right, #a6f77b, #2ec06f);
+    height: 2px;
+    margin: -1.1rem auto 0 auto;
+    width: 89px;
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+}
+
+#forgot-pass {
+    color: #2dbd6e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    margin-top: 3px;
+    text-align: right;
+}
+
+.form {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+
+}
+.form-border {
+    background: -webkit-linear-gradient(right, #a6f77b, #2ec06f);
+        height: 1px;
+        width: 100%;
+}
+.form-content {
+    background: #fbfbfb;
+    border: none;
+    outline: none;
+    padding-top: 14px;
+}
+
+</style>
+
+<body class="animated animate__bounceIn">
+    <div id="card">
+        <div id="card-content">
+            <h2>LOGIN</h2>
+            <div class="underline-title"></div>
+
+            <form method="post"
+            class="form">
+        <label for="user-email"
+        style="padding-top: 22px;">&nbsp;Email</label>
+        <input
+        id="user-email"
+        class="form-content"
+        type="email"
+        name="email"
+        autocomplete="on"
+        required />
+        <div class="form-border"></div>
+
+        <label for="user-password" 
+        style="padding-top: 22px;">&nbsp;Password</label>
+        <input
+        id="user-password"
+        class="form-content"
+        type="password"
+        name="password"
+        required />
+        <div class="form-border">
+    </div>
+    <a href="#"><legend id="forgot-pass">Forgot password?</legend></a>
+
+    <input id="submit-btn"
+    type="submit" name="submit"
+    value="LOGIN" /><a href="#"
+    id="singup">Belum punya akun?</a>
+
+    <div class="kotak"></div>
+
+    <hr />
+
+    <footer style="text-align: center;">
+        <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Copyright &copy; 2020 - Pinang Aquarium</p>
+    </footer>
+
+</body>
+</html>
